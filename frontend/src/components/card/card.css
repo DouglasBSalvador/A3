@@ -1,0 +1,48 @@
+.cardContainer {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+
+  padding: 40px; 
+  gap: 32px; 
+  border-radius: 6px;
+  border: solid 1px #a1a1aa;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+  max-width: 730px;
+  min-width: 730px;
+  width: 100%;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 1; 
+}
+
+.form {
+  display: flex; 
+  gap: 8px; 
+  align-items: center; 
+  width: 100%; 
+}
+
+.input {
+  padding: 12px; 
+  border-radius: 6px; 
+  border: solid 1px #a1a1aa;
+  width: 100%; 
+}
+
+.button {
+  padding: 12px; 
+  border-radius: 6px;
+  border: solid 1px #000000; 
+  background-color: #000000; 
+  color: #fafafa;
+  font: bold;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:disabled {
+  background-color: #3f3f46;
+}
