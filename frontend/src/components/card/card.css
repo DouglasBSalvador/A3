@@ -46,3 +46,9 @@
 .button:disabled {
   background-color: #3f3f46;
 }
+
+.answerContainer {
+  display: flex; 
+  align-items: flex-start; 
+  width: 100%; 
+}

@@ -1,0 +1,10 @@
+.answerTitle {
+  font: medium;
+}
+
+.answer {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  font: normal;
+}
